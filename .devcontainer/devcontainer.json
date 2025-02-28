@@ -1,6 +1,10 @@
 {
     "name": "fastapi",
     "dockerFile": "./Dockerfile",
+    "workspaceFolder": "/opt/workspace",
+    "mounts": [
+    "source=./workspace,target=/opt/workspace,type=bind"
+    ],
     "customizations": {
       "vscode": {
         "extensions": [
@@ -9,7 +13,7 @@
           "ritwickdey.LiveServer",
           "kamikillerto.vscode-colorize",
           "ms-python.python",
-          "ms-python.vscode-pylance",
+          "ms-python.vscode-pylance"
         ],
         "settings": {
           "extensions.verifySignature": false
