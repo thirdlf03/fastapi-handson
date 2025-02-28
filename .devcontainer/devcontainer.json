@@ -1,0 +1,19 @@
+{
+    "name": "fastapi",
+    "dockerFile": "./Dockerfile",
+    "customizations": {
+      "vscode": {
+        "extensions": [
+          "mhutchie.git-graph",
+          "oderwat.indent-rainbow",
+          "ritwickdey.LiveServer",
+          "kamikillerto.vscode-colorize",
+          "ms-python.python",
+          "ms-python.vscode-pylance",
+        ],
+        "settings": {
+          "extensions.verifySignature": false
+        }
+      }
+    }
+  }
